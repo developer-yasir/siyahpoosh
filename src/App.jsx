@@ -31,7 +31,7 @@ function App() {
       id: 4,
       name: "Ivory Silk",
       price: 199.00,
-      image: "https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?q=80&w=1020&auto=format&fit=crop",
+      image: "https://png.pngtree.com/png-vector/20240325/ourmid/pngtree-black-burka-for-muslim-girl-png-image_12002873.png",
       hoverImage: "https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?q=80&w=1020&auto=format&fit=crop"
     },
   ];
