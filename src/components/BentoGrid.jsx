@@ -17,7 +17,7 @@ const BentoGrid = () => {
                     {/* Large Featured Item (Span 2 cols) */}
                     <div className="md:col-span-2 relative group overflow-hidden rounded-3xl cursor-pointer">
                         <img
-                            src="https://images.unsplash.com/photo-1709407335198-648b29f0460c?q=80&w=2574&auto=format&fit=crop"
+                            src="https://images.pexels.com/photos/7945934/pexels-photo-7945934.jpeg?auto=compress&cs=tinysrgb&w=1920&h=1280&dpr=2"
                             alt="Summer Collection"
                             className="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
                         />
@@ -33,7 +33,7 @@ const BentoGrid = () => {
                     {/* Tall Item (Span 1 col, 2 rows implicitly if expanded, but here just standard) */}
                     <div className="relative group overflow-hidden rounded-3xl cursor-pointer bg-surface">
                         <img
-                            src="https://images.unsplash.com/photo-1621213327618-1c4b9aa178e2?q=80&w=1887&auto=format&fit=crop"
+                            src="https://images.pexels.com/photos/8839887/pexels-photo-8839887.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
                             alt="Accessories"
                             className="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
                         />
@@ -48,7 +48,7 @@ const BentoGrid = () => {
                     <div className="relative group overflow-hidden rounded-3xl cursor-pointer bg-white">
                         <div className="absolute inset-0 flex items-center justify-center p-8 bg-[#fbfbfd]">
                             <img
-                                src="https://images.unsplash.com/photo-1532453288672-3a27e9be9efd?q=80&w=1964&auto=format&fit=crop"
+                                src="https://images.pexels.com/photos/6069002/pexels-photo-6069002.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
                                 alt="Evening Wear"
                                 className="w-full h-full object-cover rounded-2xl shadow-sm transition-transform duration-500 group-hover:-translate-y-2"
                             />
@@ -72,7 +72,7 @@ const BentoGrid = () => {
                         </div>
                         <div className="absolute right-0 top-0 w-2/3 h-full">
                             <img
-                                src="https://images.unsplash.com/photo-1620120966883-d977b57a96ec?q=80&w=1964&auto=format&fit=crop"
+                                src="https://images.pexels.com/photos/8839883/pexels-photo-8839883.jpeg?auto=compress&cs=tinysrgb&w=1920&h=1280&dpr=2"
                                 alt="Velvet Detail"
                                 className="w-full h-full object-cover mask-gradient-left opacity-80 group-hover:scale-105 transition-transform duration-700"
                             />

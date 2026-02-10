@@ -1,4 +1,5 @@
 import React from 'react';
+import MagneticButton from './MagneticButton';
 
 const Hero = () => {
     return (
@@ -7,7 +8,7 @@ const Hero = () => {
             <div
                 className="absolute inset-0 z-0 opacity-90 scale-105 animate-slow-zoom"
                 style={{
-                    backgroundImage: "url('https://images.unsplash.com/photo-1516195851888-6f13b8a2f333?q=80&w=2674&auto=format&fit=crop')", // Cinematic black abaya/modest fashion
+                    backgroundImage: "url('https://images.pexels.com/photos/8100771/pexels-photo-8100771.jpeg?auto=compress&cs=tinysrgb&w=1920&h=1080&dpr=2')",
                     backgroundSize: 'cover',
                     backgroundPosition: 'center',
                 }}
@@ -30,12 +31,12 @@ const Hero = () => {
                 </p>
 
                 <div className="flex flex-col md:flex-row gap-4 w-full md:w-auto">
-                    <button className="bg-white text-black px-8 py-4 rounded-full font-medium text-sm hover:bg-gray-100 transition-all duration-300 min-w-[160px]">
+                    <MagneticButton className="bg-white text-black px-8 py-4 rounded-full font-medium text-sm hover:bg-gray-100 transition-all duration-300 min-w-[160px]">
                         Shop Collection
-                    </button>
-                    <button className="bg-white/10 backdrop-blur-md border border-white/20 text-white px-8 py-4 rounded-full font-medium text-sm hover:bg-white/20 transition-all duration-300 min-w-[160px]">
+                    </MagneticButton>
+                    <MagneticButton className="bg-white/10 backdrop-blur-md border border-white/20 text-white px-8 py-4 rounded-full font-medium text-sm hover:bg-white/20 transition-all duration-300 min-w-[160px]">
                         Watch the Film
-                    </button>
+                    </MagneticButton>
                 </div>
             </div>
         </section>
